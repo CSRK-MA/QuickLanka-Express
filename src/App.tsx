@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Changed import
 import { Toaster } from 'react-hot-toast';
 
 // Layouts
@@ -17,7 +17,7 @@ import NotFoundPage from './pages/NotFoundPage';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/QuickLanka-Express"> {/* Added basename */}
       <Toaster position="top-center" />
       <Routes>
         <Route path="/" element={<MainLayout />}>
