@@ -6,7 +6,7 @@
   "description": "A quick and efficient way to access the QuickLanka Express.",
   "author": "NexonMACS",
   "license": "MIT",
-  "homepage": "https://CSRK-MA.github.io/QuickLanka-Express/",
+  "homepage": "https://CSRK-MA.github.io/QuickLanka-Express",
   
   "scripts": {
     "dev": "vite",
