@@ -173,7 +173,7 @@ const Footer: React.FC = () => {
         {/* Bottom Footer */}
         <div className="border-t border-white/10 mt-8 pt-6 flex flex-col md:flex-row justify-between items-center">
           <div className="text-sm text-gray-300 mb-4 md:mb-0">
-            © {new Date().getFullYear()} QuickLanka Express. All rights reserved.
+            © {new Date().getFullYear()} QuickLanka Express. All rights reserved. Made with <Heart className="w-4 h-4 mx-1 text-red-500" /> NexonMACS.
           </div>
           <div className="flex space-x-4 text-sm text-gray-300">
             <Link to="/terms" className="hover:text-white transition-colors">Terms of Service</Link>
